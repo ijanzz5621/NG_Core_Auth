@@ -97,7 +97,7 @@ namespace NG_Core_Auth.Controllers
             _context.Products.Remove(findProduct);
             await _context.SaveChangesAsync();
 
-            return Ok(new JsonResult("Product with id: " + id + " has been deleted!"));
+            return Ok(new JsonResult("Product with id: " + id + " has been deleted!!!"));
         }
 
 
