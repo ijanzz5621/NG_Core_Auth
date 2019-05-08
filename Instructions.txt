@@ -1,0 +1,10 @@
+﻿1. To update angular, just delete the ClientApp folder and recreate new folder by running below command:\
+
+	ng new ClientApp
+
+2. Enable ef migariotn:
+
+	dotnet ef migrations add InitialCreate
+	dotnet ef database update InitialCreate
+
+3. 
